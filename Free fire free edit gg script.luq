@@ -1,0 +1,389 @@
+gg.alert("X VIP TEAM")
+gg.alert("X VIP TEAM")
+gg.toast("🔸MADE BY AARYAN ROGE 🔸")
+gg.toast("🔸MADE BY AARYAN ROGE 🔸")
+gg.toast("🔸MADE BY AARYAN ROGE 🔸")
+gg.toast("🔸MADE BY AARYAN ROGE 🔸 ")
+
+if os.date("%Y%m%d") >= "20221215" then
+gg.alert("тЪая╕П This script has expired!") return end
+PW = gg.prompt({'Enter Password:'},{[1]=''},{[1]='text'})
+if not PW then return
+end 
+if PW[1] == "" then gg.alert("Enter Key !") os.exit() end
+if PW[1] =="NEW" then 
+else 
+gg.alert("ЁЯЪл Password does not match!") return end
+gg.alert("MADE BY AARYAN ROGE") --Alert Massage
+gg.toast("SELLER BY AARYAN TECH CLIENT ") --Toast Massage
+gg.setVisible(true)
+LuaLibraryTool = -1
+function HOME()
+MENU = gg.choice({
+        "AIM BOT (IN LOGIN PAGE)", --choice
+        "AIM LOCK  (IN GAME)", --choice
+        "NO RECOIL (IN GAME)", --choice
+        "AIM FOV (IN GAME)", --choice
+        "ONLY HEADSHOT (IN GAME)", --choice
+        "HEADSHOT 50 (DRAG) (IN GAME)", --choice
+        "HEADSHOT 80 (DARG) (IN GAME)", --choice
+        "ESP ANTENNA HAND (IN GAME)", --choice
+        "BYPASS (IN LOBBY)", --choice
+        "BYPASS V2 (IN LOBBY)", --choice
+        "AIM BOT V2 (IN GAME)", --choice
+        "ESP ANTENNA LAZER (IN LOBBY)", --choice
+        "SPEED X5 (IN GAME)", --choice
+        "BYPASS V3(IN LOBBY)", --choice
+        "FLY HACK", --choice
+        "INFORMATION ℹ️", --choice
+        "SPEED X100", --choice
+        "EXIT " --EndScript
+}, nil, "X VIP CHEAT 🔸 ADMIN: AARYAN ROGE 🔸\n🔸 EXPIRED:20/11/22🔸\n🔸USER: VIP USER 🔸")
+if MENU == nil then
+  else
+   if MENU == 1 then --choice
+      MENU1()
+     end
+   if MENU == 2 then --choice
+      MENU2()
+     end
+   if MENU == 3 then --choice
+      MENU3()
+     end
+   if MENU == 4 then --choice
+      MENU4()
+     end
+   if MENU == 5 then --choice
+      MENU5()
+     end
+   if MENU == 6 then --choice
+      MENU6()
+     end
+   if MENU == 7 then --choice
+      MENU7()
+     end
+   if MENU == 8 then --choice
+      MENU8()
+     end
+   if MENU == 9 then --choice
+      MENU9()
+     end
+   if MENU == 10 then --choice
+      MENU10()
+     end
+   if MENU == 11 then --choice
+      MENU11()
+     end
+   if MENU == 12 then --choice
+      MENU12()
+     end
+   if MENU == 13 then --choice
+      MENU13()
+     end
+   if MENU == 14 then --choice
+      MENU14()
+     end
+   if MENU == 15 then --choice
+      MENU15()
+     end
+   if MENU == 16 then --choice
+      MENU16()
+     end
+   if MENU == 17 then --choice
+      MENU17()
+     end
+    if MENU == 18 then --EndScript
+      LOBBY()
+     end
+   end
+  LuaLibraryTool = -1
+end
+
+function MENU1() --choice
+       gg.setRanges(gg.REGION_C_ALLOC)
+       gg.searchNumber("48r;69r;70r;73r::9", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+       gg.getResults(400)
+       gg.editAll("48r;65r;61r;64r", gg.TYPE_BYTE)
+       gg.clearResults() 
+end
+
+function MENU2() --choice
+gg.setRanges(32)
+gg.searchNumber("1016018816", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1016018816", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("0016018816", gg.TYPE_DWORD)
+gg.clearResults() 
+end
+
+function MENU3() --choice
+gg.setRanges(32)
+    gg.searchNumber("0.01748251915", 16, false, 536870912, 0, -1)
+    gg.getResults(999)
+    gg.editAll("-2.2958874e-41", 16)
+    gg.clearResults()
+    gg.setRanges(32)
+    gg.searchNumber("1016018816", 4, false, 536870912, 0, -5)
+    gg.getResults(500)
+    gg.editAll("0006018816", 4)
+    gg.clearResults()
+end
+
+function MENU4() --choice
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1057048494;1054951342;1053273620", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20000)
+gg.editAll("-20000", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1.30928164e25;-3.69511377e20;1.25206298e-38;0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.processResume()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.35000002384", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(1000)
+gg.editAll("100", gg.TYPE_FLOAT)
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1057048494;1054951342;1053273620", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20000)
+gg.editAll("-20000", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1.30928164e25;-3.69511377e20;1.25206298e-38;0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.processResume()
+end
+
+function MENU5() --choice
+    gg.setRanges(32)
+    gg.searchNumber('5.5;1.0;0.75::9', 16)
+    gg.refineNumber('1', 16)
+    gg.getResults(1)
+    gg.editAll('-999', 16)
+    gg.clearResults()
+    gg.setRanges(32)
+    gg.searchNumber('5.5;0.75::9', 16)
+    gg.refineNumber('0.75', 16)
+    gg.getResults(1)
+    gg.editAll('-999', 16)
+    gg.clearResults()
+end
+
+function MENU6() --choice
+    gg.setRanges(32)
+    gg.searchNumber('5.5;1.0;0.75::9', 16)
+    gg.refineNumber('1', 16)
+    gg.getResults(1)
+    gg.editAll('-999', 16)
+    gg.clearResults()
+    gg.setRanges(32)
+    gg.searchNumber('5.5;0.75::9', 16)
+    gg.refineNumber('0.75', 16)
+    gg.getResults(1)
+    gg.editAll('-999', 16)
+    gg.clearResults()
+end
+
+function MENU7() --choice
+gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1016018816", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1016018816", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(gg.getResultsCount())
+  gg.editAll("0016018816", gg.TYPE_DWORD)
+  gg.clearResults()
+end
+
+function MENU8() --choice
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('"00h;00h;80h;3Fh;13h;13h;17h;3Eh::8"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('"00h;00h;80h;3Fh::4"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll('"00h;00h;48h;43h"', gg.TYPE_BYTE)
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('"00h;00h;80h;3Fh;85h;7Bh;F6h;3Eh::8"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('"00h;00h;80h;3Fh::4"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll('"00h;00h;48h;43h"', gg.TYPE_BYTE)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('"00h;00h;80h;3Fh;13h;13h;17h;3Eh::8"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('"00h;00h;80h;3Fh::4"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll('"00h;00h;48h;43h"', gg.TYPE_BYTE)
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('"00h;00h;80h;3Fh;85h;7Bh;F6h;3Eh::8"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber('"00h;00h;80h;3Fh::4"', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll('"00h;00h;48h;43h"', gg.TYPE_BYTE)
+    gg.clearResults()
+end
+
+function MENU9() --choice
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.getResults(1)
+gg.searchNumber("127B;69B;76B;70B;1B;1B;1B;0B::8", gg.TYPE_QWORD, nil, nil, nil, nil)
+gg.getResults(0)
+gg.refineNumber("72", gg.TYPE_QWORD)
+gg.getResults("4")
+gg.editAll("70", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.getResults(1)
+gg.searchNumber("-1.1888024e-10F;-0.00883197878F;-9,004,122,112.0F;4.8888483e24F;-0.0079164654F;1.0865689e-19F;1.0879452e-19F;4.1778991e34F:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(0)
+gg.refineNumber("-1.1888024e-10;-0.00883197878", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+end
+
+function MENU10() --choice
+gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("R_R({800C90C0rD;7A01A801rD;58011B01rD;39016001rD;7101A901rD;FC013402rD;7402D902rD;19032203rD;5103D003rD;46044E04rD;FB03DC03rD;38046804rD;CB030503rD;FF024003rD;D102FF01rD;AC01C901rD;C0016901rD;E8006200rD;F6FF7EFFrD;B4FEC4FDrD:4089})", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("R_R({8})", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(73)
+    gg.editAll("R_R({192,158,121})", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("R_R({1,6,7,8,9,0,0,6,6,7,7,10,7,777,10})", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("R_R({61})", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(40)
+    gg.editAll("R_R({192,158,121})", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.setRanges(32)
+    gg.searchNumber("R_R({83,65,103,40,11,249,31,224,203,177,215,152,126,127,143,80,52,36,71,8,236,220,255,192,164,152,183,120,94,94,111,47,29,9})", 1, false, 536870912, 0, -1)
+    gg.refineNumber("R_R({83,65,103,40,11,249,31,224,203,177,215,152,126,127,143,79,61,37})", 1, false, 536870912, 0, -1)
+    gg.getResults(10000)
+    gg.editAll("R_R({83,65,103,40,11,249,31,224,199,185,215,152,127,108,143})", 1)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,98,134,182,25,26,62,110,209,210,246,42,137,138,176,240,65,65,111,155})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,97,143,183})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll("R_R({165,211,57,58,93,139,241,242,25,75,169,170,209,254,97})", gg.TYPE_BYTE)
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,98,141,184,25,26,68,125,209,210,11,41,137,138,176,240,65,65,111,155})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,97,143,183})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll("R_R({165,211,57,58,93,139,241,242,25,75,169,170,209,254,97})", gg.TYPE_BYTE)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,98,134,182,25,26,62,110,209,210,246,42,137,138,176,240,65,65,111,155})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,97,143,183})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll("R_R({165,211,57,58,93,139,241,242,25,75,169,170,209,254,97})", gg.TYPE_BYTE)
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,98,141,184,25,26,68,125,209,210,11,41,137,138,176,240,65,65,111,155})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("R_R({165,211,57,58,93,139,241,242,29,67,169,170,208,17,97,97,143,183})", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(10000)
+    gg.editAll("R_R({165,211,57,58,93,139,241,242,25,75,169,170,209,254,97})", gg.TYPE_BYTE)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.searchNumber("-1,042,808,832;-382,908,176;-494,030,832;-498,216,944;-509,591,552;-442,564,368::21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("-1,042,808,832", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1)
+    gg.editAll("1,120,403,456", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.clearResults()
+    STM1 = gg.getListItems()
+    gg.removeListItems(STM1)
+    gg.clearResults()
+end
+
+function MENU11() --choice
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(3000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(3000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_FLOAT then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+gg.processResume()
+gg.clearResults()
+gg.clearList()
+gg.processResume()
+end
+
+function MENU12() --choice
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("h 69 00 6E 00 67 00 61 00 6D 00 65 00 2F 00 63 00 61 00 70 00 73 00 75 00 6C 00 65 00 68 00 75 00 6D 00 61 00 6E 00 73 00 6E 00 69 00 70 00 65 00 72 00 63 00 6F 00 6C 00 6C 00 69 00 64 00 65 00 72 00", 1)
+gg.getResults(20000)
+gg.editAll("h 65 00 66 00 66 00 65 00 63 00 74 00 73 00 2F 00 62 00 72 00 5F 00 61 00 69 00 72 00 64 00 72 00 6F 00 70 00 6C 00 69 00 67 00 68 00 74 00 6C 00 65 00 76 00 65 00 6C 00 31 00 00 00 00 00 00 00 00 00", 1)
+gg.clearResults()
+end
+
+function MENU13() --choice
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("2.80259693e-44F;1.20000004768F;0.18000000715F;1.40129846e-45F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("1.20000004768", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+    gg.editAll("1.780", gg.TYPE_FLOAT)
+    gg.toast("🔸🔘🔸")
+end
+
+function MENU14() --choice
+gg["setRanges"](16384)
+  gg["searchNumber"]("-1.1888024e-10F;-0.00883197878F;-9,004,122,112.0F;4.8888483e24F;-0.0079164654F;1.0865689e-19F;1.0879452e-19F;4.1778991e34F:29", 16, false, 536870912, 0, -1)
+  gg["refineNumber"]("-1.1888024e-10;-0.00883197878", 16, false, 536870912, 0, -1)
+  gg["getResults"](100)
+  gg["editAll"]("120", 16)
+  os.remove("/Android/data/com.dts.libil2cpp.soth/files/reportnew.db")
+  os.remove("/Android/data/com.dts.libil2cpp.soth/files/ymrtc_log.txt")
+  os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/reportnew.db", gg.LOAD_APPEND)
+  os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/ymrtc_log.txt", gg.LOAD_APPEND)
+  gg.clearResults()
+end
+
+function MENU15 () --choice
+      gg.setRanges(_G["gg"]["REGION_CODE_APP"])
+      gg.searchNumber("64h", _G["gg"]["TYPE_FLOAT"])
+      gg.getResults(1000)
+      gg.editAll("-500", _G["gg"]["TYPE_FLOAT"])
+      gg.clearResults()
+end
+
+function MENU16() --choice
+gg.alert("MADE BY AARYAN ROGE")
+gg.alert("BEST GG SCRIPT")
+gg.alert("PIAD REGEDIT BY AARYAN ROGE")
+gg.alert("EXPIRES:10/12/2022")
+gg.alert("TEAM:X VIP")
+gg.alert("YOUTUBE: AARYAN TECH")
+end
+
+function MENU17() --choice
+end
+
+function LOBBY() --End Script
+gg.alert("MADE BY AARYAN ROGE ") --Alert Massage
+gg.toast("SUBSCRIBE TO AARYAN TECH ") --Toast Massage
+print("NEW GG SCRIPT FF4HX ") --Print Massage
+print("Created By AXAN TEAM")
+gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end
+while true do
+  if gg.isVisible(true) then
+    LuaLibraryTool = 1
+    gg.setVisible(false)
+  end
+  if LuaLibraryTool == 1 then
+    HOME()
+  end
+end 
